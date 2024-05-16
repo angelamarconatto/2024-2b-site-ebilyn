@@ -1,0 +1,23 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-um: #e42e2e;
+    --cor-um: #8a2525;
+    --cor-um: #411919;
+    --cor-um: #e08f8f;
+    --cor-um: #eecfcf;
+    --texto-corpo: "raleway", sans-serif;
+    --texto-titulo: "sedan sc", srif;
+}
+body{
+    background:#e08f8f;
+    color: #411919;
+    font-family: var(--texto-corpo);
+}
+.titulo-principal {
+    font-family: var(--texto-titulo);
+}
