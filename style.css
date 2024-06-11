@@ -21,3 +21,21 @@ body{
 .titulo-principal {
     font-family: var(--texto-titulo);
 }
+.cabecalho{
+    background-color: var(--cor-um);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.cabecalho-img{
+    width: 10%;
+    border-radius: 100%;
+}
+.cabecalho-nav__link{
+text-decoration: none;
+font-family: var(--texto-titulo);
+fonte-size: 24px;
+color: var(--cor-um);
+margin-right: 24px;
+}
